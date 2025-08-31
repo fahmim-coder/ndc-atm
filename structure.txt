@@ -1,0 +1,71 @@
+.
+├── create_my_repo.sh
+├── doc
+│   └── Quick Reference Advance NDC Message.pdf
+├── first_push.sh
+├── gitignore.txt
+├── my_repo.sh
+├── ndc-server
+│   ├── pom.xml
+│   └── src
+│       ├── main
+│       │   ├── java
+│       │   │   └── com
+│       │   │       └── leunca
+│       │   │           ├── ndc
+│       │   │           │   ├── advance
+│       │   │           │   │   ├── BarcodeData.java
+│       │   │           │   │   ├── BunchChequeDepositCurrencyType.java
+│       │   │           │   │   ├── BunchChequeDepositType.java
+│       │   │           │   │   ├── ChequeGroupType.java
+│       │   │           │   │   ├── CoinDispensedFromHopperType.java
+│       │   │           │   │   ├── ConfirmationCustomerSelectedPIN.java
+│       │   │           │   │   ├── CounterfeitNotesTypeData.java
+│       │   │           │   │   ├── CustomerSelectedPIN.java
+│       │   │           │   │   ├── EscrowNotesTypeData.java
+│       │   │           │   │   ├── ExitStateData.java
+│       │   │           │   │   ├── hosttoterminal
+│       │   │           │   │   │   ├── AcknowledgeAndStopEJ.java
+│       │   │           │   │   │   ├── AcknowledgeEJUploadBlock.java
+│       │   │           │   │   │   ├── CustomisationDataCommands.java
+│       │   │           │   │   │   ├── EJOptionsAndTimers.java
+│       │   │           │   │   │   ├── EncryptionKeyChange.java
+│       │   │           │   │   │   ├── ExtendedEncryptionKeyChange.java
+│       │   │           │   │   │   ├── InteractiveTransactionResponse.java
+│       │   │           │   │   │   ├── NDCHostToTerminal.java
+│       │   │           │   │   │   ├── TerminalCommands.java
+│       │   │           │   │   │   ├── TMAlertHostToTerminal.java
+│       │   │           │   │   │   └── TransactionReply.java
+│       │   │           │   │   ├── LastCashDepositTransactionDirection.java
+│       │   │           │   │   ├── LastStatusIssued.java
+│       │   │           │   │   ├── LastTransactionStatusDataType.java
+│       │   │           │   │   ├── NotesTypeData.java
+│       │   │           │   │   ├── RecycleCassette.java
+│       │   │           │   │   ├── RecycleCassettesGroup.java
+│       │   │           │   │   ├── SingleChequeDeposit.java
+│       │   │           │   │   ├── SmartCardData.java
+│       │   │           │   │   ├── SuspectNotesTypeData.java
+│       │   │           │   │   ├── terminaltohost
+│       │   │           │   │   │   ├── EncryptorInitialisationData.java
+│       │   │           │   │   │   ├── NDCTerminalToHost.java
+│       │   │           │   │   │   ├── SolicitedStatus.java
+│       │   │           │   │   │   ├── TMAlertTerminalToHost.java
+│       │   │           │   │   │   ├── TransactionRequest.java
+│       │   │           │   │   │   ├── UnsolicitedStatus.java
+│       │   │           │   │   │   └── UploadEJData.java
+│       │   │           │   │   ├── TopOfReceiptTransactionFlag.java
+│       │   │           │   │   ├── Track1Data.java
+│       │   │           │   │   └── VoiceGuidanceType.java
+│       │   │           │   ├── NDCField.java
+│       │   │           │   └── NDCParameter.java
+│       │   │           └── NettyServer.java
+│       │   └── resources
+│       └── test
+│           ├── java
+│           └── resources
+├── pull.sh
+├── push.sh
+├── structure.sh
+└── structure.txt
+
+16 directories, 53 files

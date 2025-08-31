@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/workspace/ndc-atm-stack-dev/
+cd ~/workspace/ndc-atm/
 tree >> structure.txt
 
